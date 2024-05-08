@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PinkyHTML.loader.js";
+      var loaderUrl = buildUrl + "/PinkyHTML(compressiondiabled).loader.js";
       var config = {
-        dataUrl: buildUrl + "/PinkyHTML.data.gz",
-        frameworkUrl: buildUrl + "/PinkyHTML.framework.js.gz",
-        codeUrl: buildUrl + "/PinkyHTML.wasm.gz",
+        dataUrl: buildUrl + "/PinkyHTML(compressiondiabled).data",
+        frameworkUrl: buildUrl + "/PinkyHTML(compressiondiabled).framework.js",
+        codeUrl: buildUrl + "/PinkyHTML(compressiondiabled).wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Maciro Game",
@@ -84,7 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/PinkyHTML.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/PinkyHTML(compressiondiabled).jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
