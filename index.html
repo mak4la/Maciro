@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Maciro Game</title>
+    <title>Unity WebGL Player | Pinky Game</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PinkyHTML(compressiondiabled).loader.js";
+      var loaderUrl = buildUrl + "/PinkyHTML(gfilefzallback).loader.js";
       var config = {
-        dataUrl: buildUrl + "/PinkyHTML(compressiondiabled).data",
-        frameworkUrl: buildUrl + "/PinkyHTML(compressiondiabled).framework.js",
-        codeUrl: buildUrl + "/PinkyHTML(compressiondiabled).wasm",
+        dataUrl: buildUrl + "/PinkyHTML(gfilefzallback).data.unityweb",
+        frameworkUrl: buildUrl + "/PinkyHTML(gfilefzallback).framework.js.unityweb",
+        codeUrl: buildUrl + "/PinkyHTML(gfilefzallback).wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Maciro Game",
+        companyName: "Maciro",
+        productName: "Pinky Game",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -84,7 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/PinkyHTML(compressiondiabled).jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/PinkyHTML(gfilefzallback).jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

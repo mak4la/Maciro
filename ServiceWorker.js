@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-Maciro Game-1.0";
+const cacheName = "Maciro-Pinky Game-1.0";
 const contentToCache = [
-    "Build/PinkyHTML(compressiondiabled).loader.js",
-    "Build/PinkyHTML(compressiondiabled).framework.js",
-    "Build/PinkyHTML(compressiondiabled).data",
-    "Build/PinkyHTML(compressiondiabled).wasm",
+    "Build/PinkyHTML(gfilefzallback).loader.js",
+    "Build/PinkyHTML(gfilefzallback).framework.js.unityweb",
+    "Build/PinkyHTML(gfilefzallback).data.unityweb",
+    "Build/PinkyHTML(gfilefzallback).wasm.unityweb",
     "TemplateData/style.css"
 
 ];

@@ -1,6 +1,6 @@
 {
-    "name": "Maciro Game",
-    "short_name": "Maciro Game",
+    "name": "Pinky Game",
+    "short_name": "Pinky Game",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#FFFFFF",
