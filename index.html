@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PinkyHTML(gfilefzallback).loader.js";
+      var loaderUrl = buildUrl + "/PinkyHTML(runinbackground).loader.js";
       var config = {
-        dataUrl: buildUrl + "/PinkyHTML(gfilefzallback).data.unityweb",
-        frameworkUrl: buildUrl + "/PinkyHTML(gfilefzallback).framework.js.unityweb",
-        codeUrl: buildUrl + "/PinkyHTML(gfilefzallback).wasm.unityweb",
+        dataUrl: buildUrl + "/PinkyHTML(runinbackground).data",
+        frameworkUrl: buildUrl + "/PinkyHTML(runinbackground).framework.js",
+        codeUrl: buildUrl + "/PinkyHTML(runinbackground).wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Maciro",
         productName: "Pinky Game",
@@ -84,7 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/PinkyHTML(gfilefzallback).jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/PinkyHTML(runinbackground).jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

@@ -1,9 +1,9 @@
 const cacheName = "Maciro-Pinky Game-1.0";
 const contentToCache = [
-    "Build/PinkyHTML(gfilefzallback).loader.js",
-    "Build/PinkyHTML(gfilefzallback).framework.js.unityweb",
-    "Build/PinkyHTML(gfilefzallback).data.unityweb",
-    "Build/PinkyHTML(gfilefzallback).wasm.unityweb",
+    "Build/PinkyHTML(runinbackground).loader.js",
+    "Build/PinkyHTML(runinbackground).framework.js",
+    "Build/PinkyHTML(runinbackground).data",
+    "Build/PinkyHTML(runinbackground).wasm",
     "TemplateData/style.css"
 
 ];
