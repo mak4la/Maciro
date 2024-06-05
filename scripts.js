@@ -1,5 +1,5 @@
 function downloadMac() {
-    window.location.href = 'assets/MacBuild.zip';
+    window.location.href = 'assets/PinkyMacBuild.zip';
 }
 
 function downloadWindows() {
