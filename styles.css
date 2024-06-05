@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(247, 192, 201);
+    font-family: 'Poetsen One', Arial, sans-serif; /* Adding the Poetsen One font */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 0px;
+    font-size: 40px;
+}
+
+h1 {
+    color: #f38db9; /* Darker shade of pink */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f38db9;; /* Darker shade of pink */
+    color: white;
+    font-family: 'Poetsen One', Arial, sans-serif; /* Adding the Poetsen One font */
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #e57fac;; /* Even darker shade for hover effect */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(247, 192, 201);
+}
+
